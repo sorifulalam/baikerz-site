@@ -14,49 +14,128 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
   </head>
-  <body>
+  <body class="container-lg">
     <!-- header section -->
      <header>
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Bikerz-Zone</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+            <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto fw-semibold">
+              <li class="nav-item ms-2">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+              <li class="nav-item ms-2">
+                <a class="nav-link" href="#">Shop</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <li class="nav-item ms-2">
+                <a class="nav-link ">News</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+              <li class="nav-item ms-2">
+                <a class="nav-link ">Contact</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <button class="btn btn-outline-danger ms-5" type="submit">Log-in</button>
           </div>
         </div>
       </nav>
+
+      <!-- banner slider -->
+
+      <div id="carouselExampleControls" class="carousel slide bg-danger  p-5 bg-opacity-10 rounded" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <div class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+              <div class="">
+                <h1>
+                  Ride-on R15 V4 with Smile
+                </h1>
+                <p>
+                  Amet minim mollit non deserunt ullamco 
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                </p>
+                <button class="btn btn-danger ">Purchase</button>
+              </div>
+           </div>
+           <div class="col-12 col-md-6">
+            <img src="./img/bike-1.png" class="d-block w-100" alt="...">
+           </div>
+           </div>
+          </div>
+          <div class="carousel-item ">
+           <div class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+              <div class="">
+                <h1>
+                  Ride-on R15 V4 with Smile
+                </h1>
+                <p>
+                  Amet minim mollit non deserunt ullamco 
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                </p>
+                <button class="btn btn-danger ">Purchase</button>
+              </div>
+           </div>
+           <div class="col-12 col-md-6">
+            <img src="./img/bike-2.png" class="d-block w-100" alt="...">
+           </div>
+           </div>
+          </div>
+          <div class="carousel-item ">
+           <div class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+              <div class="">
+                <h1>
+                  Ride-on R15 V4 with Smile
+                </h1>
+                <p>
+                  Amet minim mollit non deserunt ullamco 
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                </p>
+                <button class="btn btn-danger ">Purchase</button>
+              </div>
+           </div>
+           <div class="col-12 col-md-6">
+            <img src="./img/bike-3.png" class="d-block w-100" alt="...">
+           </div>
+           </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bikerz-zone-light-red" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon bikerz-zone-light-red" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
      </header>
      <!-- main section  -->
      <main>
-
+      <!-- hot baike section -->
+      <section class="text-start text-md-center mt-5">
+        <h1 class=" ">Fetured Bikes In This Year</h1>
+        <p class=" text-danger">Best bike collection</p>
+        <hr class="w-25 mx-auto border-danger ">
+        <div class="row g-5 mt-5 row-cols-1 row-cols-sm-2 row-cols-md-3 px-5">
+          <div class="col">
+            <img class="w-100" src="./img/feature-bike.jpg" alt="">
+          </div>
+          <div class="col">
+            <img class="w-75" src="./img/feature-bike.jpg" alt="">
+          </div>
+          <div class="col">
+            <img class="w-100" src="./img/feature-bike.jpg" alt="">
+          </div>
+        </div>
+      </section>
      </main>
      <!-- footer area -->
      <footer>
